@@ -2,7 +2,7 @@ import "./Topbar.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "../../context/Context";
-import Logo from "../../assets/Crystine-Logo.png";
+import Logo from "../../assets/logo.png";
 
 export default function Topbar() {
   const { user, dispatch } = useContext(Context);
